@@ -44,6 +44,8 @@ def convert_csv_to_json(csv_path: Path, encoding: str = "utf-8", sep: str = ",",
                 if k.strip().lower() == "subs":
                     # remove next line characters from subs field
                     v = v.replace("\n", " ").replace("\r", " ")
+                if k.strip().lower() == "id":
+                    k = "url"
                 obj[k] = infer_value(v)
             # id cycles from 1..999999
             obj["id"] = ((idx - 1) % 999_999) + 1
