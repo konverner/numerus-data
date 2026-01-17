@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-01-17T10:00:00Z",
+  "min_app_version_required": 1, 
+  "languages": {
+    "en": {
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/konverner/numerus-data/main/v1/en.json"
+    },
+    "fr": {
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/konverner/numerus-data/main/v1/fr.json"
+    },
+    "es": {
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/konverner/numerus-data/main/v1/es.json"
+    },
+    "de": {
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/konverner/numerus-data/main/v1/de.json"
+    },
+    "it": {
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/konverner/numerus-data/main/v1/it.json"
+    }
+  }
+}
